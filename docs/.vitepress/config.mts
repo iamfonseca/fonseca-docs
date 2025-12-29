@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base: '/fonseca-docs/',
     title: "Fonseca Scripts",
     description: "Premium FiveM Resources Documentation",
     themeConfig: {
