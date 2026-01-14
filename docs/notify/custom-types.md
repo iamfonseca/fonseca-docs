@@ -1,6 +1,15 @@
 # Custom Types
 
+<span class="badge success">Unlimited Possibilities</span>
+
 You can define your own notification types in `config.lua`. This allows you to create specific notifications for jobs (Police, EMS), systems (Bank, Inventory), or events.
+
+::: tip Use Cases
+- 👮 Job-specific alerts (Police, EMS, Mechanic)
+- 💰 System notifications (Banking, Inventory, Housing)
+- 🎮 Game events (Death, Level Up, Achievements)
+- 📱 Custom integrations (Phone, Radio, GPS)
+:::
 
 ## How to Add a Type
 
@@ -23,19 +32,38 @@ Config.Types = {
 
 ## Supported Icons
 
-The following icon names are supported (from Lucide React):
+::: details 🎨 Available Icon Library
+The following icon names are supported (from **Lucide React**):
 
+**Finance & Commerce:**
 - `wallet`, `money`
+
+**Emergency Services:**
 - `shield`, `police`
+
+**Vehicles & Transportation:**
 - `car`, `vehicle`
-- `skull`, `death`
-- `heart`
+
+**Health & Medical:**
+- `skull`, `death`, `heart`
+
+**Jobs & Services:**
 - `tool`, `mechanic`
+
+**Security & Access:**
 - `lock`
-- `map`
-- `user`
-- `home`
-- `radio`
-- `file`
-- `bell`
+
+**Navigation & Location:**
+- `map`, `home`
+
+**Communication:**
+- `radio`, `bell`
+
+**General:**
+- `user`, `file`
+
+**Default Types:**
 - `success`, `error`, `info`, `warning`, `server`
+
+💡 **Want more icons?** Request them on our Discord!
+:::

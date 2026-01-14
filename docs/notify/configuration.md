@@ -1,6 +1,12 @@
 # Configuration
 
-The resource is highly configurable via `config.lua`.
+<span class="badge success">Highly Customizable</span>
+
+The resource is highly configurable via `config.lua`. All settings are well-documented and easy to modify.
+
+::: tip Quick Start
+Most users can start with the default settings. Only modify what you need!
+:::
 
 ## Global Settings
 
@@ -19,7 +25,11 @@ Config.Sound = {
 
 ## Colors
 
-You can override the default colors for the standard types (`success`, `error`, `info`, `warning`, `server`).
+::: warning Color Customization
+You can override the default colors for the standard types. Use hex color codes for best results.
+:::
+
+Available notification types: `success`, `error`, `info`, `warning`, `server`
 
 ```lua
 Config.Colors = {
@@ -30,3 +40,7 @@ Config.Colors = {
     server = '#c084fc'   -- Purple
 }
 ```
+
+::: tip Color Picker
+Use a hex color picker to find your perfect colors: [coolors.co](https://coolors.co)
+:::
